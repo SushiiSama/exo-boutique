@@ -1,16 +1,16 @@
-import  'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap.bundle';
-import './App.css';
-import CategoryCard from './components/CategoryCard';
-import HomeScreen from './components/HomeScreen';
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle";
+import "./App.css";
+import CategoryCard from "./components/CategoryCard";
+import HomeScreen from "./pages/HomeScreen";
 
 function App() {
   return (
     <>
-
-   <div> <HomeScreen/></div>
-
-   <div><CategoryCard/></div>
+      <div class="container-fluid">
+        <HomeScreen />
+        <div class="row"></div>
+      </div>
     </>
   );
 }
