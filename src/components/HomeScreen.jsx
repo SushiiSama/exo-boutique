@@ -1,9 +1,13 @@
 import React from 'react';
 
+
 const HomeScreen = () => {
     return (
      <>
-      <h1> Florian Wartelle </h1>
+      <h1 className='text-danger'> Florian Wartelle </h1>
+
+
+
      </>
     );
 };
